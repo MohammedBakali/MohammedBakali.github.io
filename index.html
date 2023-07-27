@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -22,18 +21,18 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="AestheticAngel">
 
-
+  
 
   <meta name="robots" content="noindex" />
 
   <!-- Favicon -->
-  <link rel="icon" href="lotus.png" sizes="any" />
-
+  <link rel="icon" href="lotus.png" sizes="any"/>
+  
 
   <!-- Open Graph & SEO tags -->
   <meta property="og:title" content="Aesthetic Angel" />
   <meta property="og:description" content="Built with FlutterFlow." />
-  <meta property="og:image" content="/assets/assets/images/mediSoft.png" />
+  <meta property="og:image" content="/assets/assets/images/mediSoft.png" /> 
   <meta name="twitter:title" content="Aesthetic Angel" />
   <meta name="twitter:description" content="Built with FlutterFlow." />
   <meta name="twitter:image" content="/assets/assets/images/mediSoft.png" />
@@ -41,11 +40,10 @@
 
   <title> Aesthetic Angel </title>
   <meta name="description" content="Built with FlutterFlow." />
-
+    
 
   <link rel="manifest" href="manifest.json">
 </head>
-
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
@@ -53,48 +51,15 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=921345569');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=164813513');
       });
     }
-    function isPwaInstalled() {
-      return window.matchMedia('(display-mode: standalone)').matches;
-    }
-    let deferredPrompt;
-
-    window.addEventListener('beforeinstallprompt', (e) => {
-      deferredPrompt = e;
-    });
-
-    function promptInstall() {
-      deferredPrompt.prompt();
-    }
-
-    // Listen for app install event
-    window.addEventListener('appinstalled', () => {
-      deferredPrompt = null;
-      appInstalled();
-    });
-
-    // Track how PWA was launched (either from browser or as PWA)
-    function getLaunchMode() {
-      const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
-      if (deferredPrompt) hasPrompt();
-      if (document.referrer.startsWith('android-app://')) {
-        appLaunchedAsTWA();
-      } else if (navigator.standalone || isStandalone) {
-        appLaunchedAsPWA();
-      } else {
-        window.appLaunchedInBrowser();
-      }
-    }
+    
   </script>
-
-
-
-
-  <script src="main.dart.js" type="application/javascript">
-
-  </script>
+  
+  
+  
+  
+  <script src="main.dart.js" type="application/javascript"></script>
 </body>
-
 </html>
