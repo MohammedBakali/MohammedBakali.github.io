@@ -97,10 +97,10 @@ const RESOURCES = {"assets/AssetManifest.json": "d914c3ca0ef658f280250d080ca6e6c
 "icons/app_launcher_icon.png": "791a58868db06dd21c4d9faa2457d8e5",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "0d39d20dde3ef1fb74e3601f882a8b97",
-"/": "0d39d20dde3ef1fb74e3601f882a8b97",
+"index.html": "e123164ccbd3678860ca273d3942714c",
+"/": "e123164ccbd3678860ca273d3942714c",
 "lotus.png": "791a58868db06dd21c4d9faa2457d8e5",
-"main.dart.js": "5ea1b30e7d5e903be34bbd30ab4c1841",
+"main.dart.js": "912090b2ecd1b0b42fecf88703ca8f9e",
 "manifest.json": "7adf5ab180a482ad8379bf148ce9de0d",
 "mediSoft.png": "90641649d977fa2ce909ddc92948db31",
 "version.json": "9a024de34deaf6dd8a51fcb4cb918879"};
